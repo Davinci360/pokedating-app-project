@@ -1,6 +1,6 @@
 /* Step 6: Go to your src/index.css , paste the code given below , this will add styling to your Pokémon web app for all the components. */
 
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* @import url("");
 body {
   margin: 0;
   font-family: "Satisfy", cursive;
@@ -15,10 +15,25 @@ body {
     #7ac5d8 100%
   );
 }
-  
+font-family: 'Pokemon Solid', sans-serif;
+                                                 
 code {
   font-family: "Satisfy", cursive;
+} */
+
+@font-face {
+  font-family: 'Pokemon Solid';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
 }
+
+#header {
+  font-family: 'Pokemon Solid';
+  font-size: large;
+}
+
+/* font-family: 'Pokemon Solid', sa */
   
 .rock {
   background-image: linear-gradient(
